@@ -26,6 +26,7 @@ div {
   z-index: 2;
   top: 0;
   left: 0;
+  overflow: hidden;
 }
 
 .info {
@@ -69,6 +70,7 @@ div {
     left: 0;
     width: 4000vh;
     height: 100vh;
+    overflow: auto;
   }
 
   .info {
