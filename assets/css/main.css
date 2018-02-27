@@ -18,6 +18,7 @@ body {
   font-size: 62.5%;
   font-weight: 700;
   font-style: normal;
+  overflow: hidden;
 }
 
 div {
@@ -58,10 +59,7 @@ div {
   body {
     position: relative;
     height: 4000vh;
-    font-family: 'Helvetica', sans-serif;
-    font-size: 62.5%;
-    font-style: normal;
-    font-weight: 700;
+    overflow: auto;
   }
 
   div {
