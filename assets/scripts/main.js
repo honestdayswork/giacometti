@@ -83,10 +83,10 @@
 
     this.lifeSpan = 10000; //ms
     this.initialStyles ={
-      "position": "absolute",
+      "position": "fixed",
       "display": "block",
       "pointerEvents": "none",
-      "z-index": "1",
+      "z-index": "0",
       "fontSize": "85px",
       "will-change": "transform"
     };
