@@ -1,3 +1,8 @@
+if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+  document.getElementById("mob").style.color = "#ffffff";
+} else
+{
+
 /*!
  * Emoji Cursor.js
  * - 90's cursors collection
@@ -122,11 +127,7 @@
     }
     
   }
-  
-  /**
-   * Utils
-   */
-  
+
   // Applies css `properties` to an element.
   function applyProperties( target, properties ) {
     for( var key in properties ) {
@@ -136,3 +137,5 @@
   
   init();
 })();
+
+}
