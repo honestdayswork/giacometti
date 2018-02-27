@@ -12,11 +12,12 @@ p, span, a {
 }
 
 body {
+  position: fixed;
   height: 100%;
   font-family: 'Helvetica', sans-serif;
   font-size: 62.5%;
-  font-style: normal;
   font-weight: 700;
+  font-style: normal;
 }
 
 div {
@@ -27,7 +28,7 @@ div {
 }
 
 .info {
-  margin: 0 auto;
+  margin: 1.5rem auto;
   padding-right: 1.5rem;
   padding-left: 1.5rem;
   display: flex;
@@ -55,6 +56,7 @@ div {
 
 @media screen and (min-width: 768px) {
   body {
+    position: relative;
     height: 4000vh;
     font-family: 'Helvetica', sans-serif;
     font-size: 62.5%;
@@ -69,6 +71,10 @@ div {
     left: 0;
     width: 4000vh;
     height: 100vh;
+  }
+
+  .info {
+    margin: 0 auto;
   }
 
   .info a, .info span {
