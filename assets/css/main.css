@@ -76,13 +76,55 @@ div {
 
   .info a, .info span {
     font-size: 20rem;
-  }
-
-  .info a {
     text-decoration: none;
+    -webkit-animation: fadeOut 1s ease forwards;
+       -moz-animation: fadeOut 1s ease forwards;
+         -o-animation: fadeOut 1s ease forwards;
+            animation: fadeOut 1s ease forwards;
   }
+}
 
-  .info span {
+@keyframes fadeOut{
+  0% {
+    color: #000000;
+  }
+  100% {
+    color: #ffffff;
+  }
+}
+
+@-moz-keyframes fadeOut {
+  0% {
+    color: #000000;
+  }
+  100% {
+    color: #ffffff;
+  }
+}
+
+@-webkit-keyframes fadeOut {
+  0% {
+    color: #000000;
+  }
+  100% {
+    color: #ffffff;
+  }
+}
+
+@-o-keyframes fadeOut {
+  0% {
+    color: #000000;
+  }
+  100% {
+    color: #ffffff;
+  }
+}
+
+@-ms-keyframes fadeOut {
+  0% {
+    color: #000000;
+  }
+  100% {
     color: #ffffff;
   }
 }
