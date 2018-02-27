@@ -14,19 +14,15 @@ p, span, a {
 body {
   position: fixed;
   height: 100%;
-  width: 100%;
   font-family: 'Helvetica', sans-serif;
   font-size: 62.5%;
   font-weight: 700;
   font-style: normal;
-  overflow: hidden;
 }
 
 div {
   position: fixed;
   z-index: 2;
-  height: 100%;
-  width: 100%;
   top: 0;
   left: 0;
 }
@@ -62,7 +58,6 @@ div {
   body {
     position: relative;
     height: 4000vh;
-    overflow: auto;
   }
 
   div {
