@@ -22,7 +22,6 @@ body {
   font-size: 62.5%;
   font-weight: 700;
   font-style: normal;
-  overflow: hidden !important;
 }
 
 div {
@@ -31,7 +30,6 @@ div {
   height: 100%;
   top: 0;
   left: 0;
-  overflow: hidden !important;
 }
 
 .info {
@@ -59,7 +57,7 @@ div {
 
 @media screen and (min-width: 768px) {
   html {
-    overflow: auto;
+    overflow: auto !important;
   }
 
   body {
@@ -75,7 +73,6 @@ div {
     width: 4000vh;
     top: 0;
     left: 0;
-    overflow: auto;
   }
 
   .info {
