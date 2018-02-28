@@ -1,3 +1,7 @@
+html {
+  overflow: hidden !important;
+}
+
 h1, h2, h3,
 h4, h5, h6,
 p, span, a {
@@ -18,7 +22,7 @@ body {
   font-size: 62.5%;
   font-weight: 700;
   font-style: normal;
-  overflow: hidden;
+  overflow: hidden !important;
 }
 
 div {
@@ -27,7 +31,7 @@ div {
   height: 100%;
   top: 0;
   left: 0;
-  overflow: hidden;
+  overflow: hidden !important;
 }
 
 .info {
@@ -54,6 +58,10 @@ div {
 }
 
 @media screen and (min-width: 768px) {
+  html {
+    overflow: auto;
+  }
+
   body {
     position: relative;
     height: 4000vh;
