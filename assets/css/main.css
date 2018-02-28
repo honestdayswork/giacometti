@@ -18,6 +18,7 @@ body {
   font-size: 62.5%;
   font-weight: 700;
   font-style: normal;
+  overflow: hidden;
 }
 
 div {
@@ -26,6 +27,7 @@ div {
   height: 100%;
   top: 0;
   left: 0;
+  overflow: hidden;
 }
 
 .info {
@@ -36,22 +38,18 @@ div {
   align-items: center;
 }
 
-.info a {
-  font-size: 2rem;
+.info a, .info span {
+  font-size: 2.5rem;
   font-weight: 700;
+  letter-spacing: -0.15rem;
   color: #000000;
-  text-decoration: underline;
-}
-
-.info span {
-  font-size: 2rem;
-  font-weight: 700;
-  color: #000000;
+  text-decoration: none;
 }
 
 @media screen and (min-width: 576px) {
   .info a, .info span {
-    font-size: 3rem;
+    font-size: 3.5rem;
+    letter-spacing: -0.2rem;
   }
 }
 
@@ -59,6 +57,7 @@ div {
   body {
     position: relative;
     height: 4000vh;
+    overflow: auto;
   }
 
   div {
@@ -68,6 +67,7 @@ div {
     width: 4000vh;
     top: 0;
     left: 0;
+    overflow: auto;
   }
 
   .info {
@@ -77,6 +77,7 @@ div {
   .info a, .info span {
     font-size: 20rem;
     font-size: 45vmin;
+    letter-spacing: -0.5rem;
     text-decoration: none;
     -webkit-animation: fadeOut 1s ease forwards;
        -moz-animation: fadeOut 1s ease forwards;

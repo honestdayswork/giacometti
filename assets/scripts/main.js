@@ -1,7 +1,9 @@
-if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+//if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
   
-} else
-{
+//} else
+//{
+
+//}
 
 /*!
  * Emoji Cursor.js
@@ -137,5 +139,3 @@ if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
   
   init();
 })();
-
-}
