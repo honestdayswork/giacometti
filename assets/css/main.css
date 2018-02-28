@@ -47,14 +47,6 @@ div {
   text-decoration: none;
 }
 
-.info span {
-  pointer-events: none;
-}
-
-.info a {
-  pointer-events: auto;
-}
-
 @media screen and (min-width: 576px) {
   .info a, .info span {
     font-size: 3.5rem;
