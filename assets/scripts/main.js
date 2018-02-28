@@ -93,7 +93,7 @@
       "position": "fixed",
       "display": "block",
       "pointerEvents": "none",
-      "z-index": "0",
+      "z-index": "-10",
       "fontSize": "85px",
       "will-change": "transform"
     };
