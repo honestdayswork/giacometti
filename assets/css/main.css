@@ -28,7 +28,7 @@ div {
   top: 0;
   left: 0;
   overflow: hidden;
-  pointer-events: none;
+
 }
 
 .info {
@@ -45,6 +45,14 @@ div {
   letter-spacing: -0.15rem;
   color: #000000;
   text-decoration: none;
+}
+
+.info span {
+  pointer-events: none;
+}
+
+.info a {
+  pointer-events: auto;
 }
 
 @media screen and (min-width: 576px) {
