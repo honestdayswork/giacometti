@@ -1,6 +1,4 @@
 html {
-  height: 100%;
-  width: 100%;
   overflow: hidden !important;
 }
 
@@ -24,7 +22,6 @@ body {
   font-size: 62.5%;
   font-weight: 700;
   font-style: normal;
-  overflow: hidden !important;
 }
 
 div {
@@ -67,7 +64,6 @@ div {
   body {
     position: relative;
     height: 4000vh;
-    overflow: auto !important;
   }
 
   div {
