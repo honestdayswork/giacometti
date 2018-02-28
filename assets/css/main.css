@@ -24,6 +24,10 @@ body {
   font-style: normal;
 }
 
+section {
+  overflow: hidden !important;
+}
+
 div {
   position: fixed;
   z-index: 2;
@@ -59,6 +63,10 @@ div {
 @media screen and (min-width: 768px) {
   html {
     overflow: auto !important;
+  }
+
+  section {
+    overflow: auto;
   }
 
   body {
